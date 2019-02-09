@@ -11,7 +11,7 @@ if __name__ == "__main__":
         exit(1)
 
 
-    port = sys.argv[1]
+    port = int(sys.argv[1])
 
 
     HOST = ''   # Symbolic name, meaning all available interfaces
